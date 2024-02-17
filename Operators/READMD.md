@@ -20,9 +20,9 @@ output : 8
 The subtraction operator is used to subtract one number from another.
 
 Example:
-``bash
+```bash
 echo $((10 - 4))
-``
+```
 output : 6
 
 
@@ -31,9 +31,9 @@ output : 6
 The multiplication operator is used to multiply numbers.
 
 Example:
-``bash
+```bash
 echo $((3 * 5))
-``
+```
 output : 15
 
 
@@ -42,9 +42,9 @@ output : 15
 The division operator is used to divide one number by another.
 
 Example:
-``bash
+```bash
 echo $((10 / 2))
-``
+```
 output : 5
 
 
@@ -53,9 +53,9 @@ output : 5
 The modulus operator gives the remainder of a division operation.
 
 Example:
-``bash
+```bash
 echo $((10 % 3))
-``
+```
 output : 1
 
 
@@ -66,9 +66,9 @@ output : 1
 The AND operator is used to execute a command if both conditions are true.
 
 Example:
-``bash
+```bash
 [[1 -eq 1]] && echo "True"
-``
+```
 output : True
 
 
@@ -77,9 +77,9 @@ output : True
 The OR operator is used to execute a command if either condition is true.
 
 Example:
-``bash
+```bash
 [[ 1 -eq 2 ]] || echo "False"
-``
+```
 output : False
 
 
@@ -88,9 +88,9 @@ output : False
 The NOT operator is used to negate the result of a command.
 
 Example:
-``bash
+```bash
 [[ ! 1 -eq 2 ]] && echo "Not equal"
-``
+```
 output : Not equal
 
 
@@ -101,9 +101,9 @@ output : Not equal
 The equal operator is used to check if two values are equal.
 
 Example:
-``bash
+```bash
 [[ 5 == 5 ]] && echo "Equal"
-``
+```
 output : Equal
 
 
@@ -112,9 +112,9 @@ output : Equal
 The not equal operator is used to check if two values are not equal.
 
 Example:
-``bash
+```bash
 [[ 5 != 3 ]] && echo "Not equal"
-``
+```
 output : Not equal
 
 
@@ -123,9 +123,9 @@ output : Not equal
 The greater than operator is used to check if one value is greater than another.
 
 Example:
-``bash
+```bash
 [[ 5 > 3 ]] && echo "Greater than"
-``
+```
 output : Greater than
 
 
@@ -134,9 +134,9 @@ output : Greater than
 The less than operator is used to check if one value is less than another.
 
 Example:
-``bash
+```bash
 [[ 3 < 5 ]] && echo "Less than"
-``
+```
 output : Less than
 
 
@@ -145,9 +145,9 @@ output : Less than
 The greater than or equal to operator is used to check if one value is greater than or equal to another.
 
 Example:
-``bash
+```bash
 [[ 5 -ge 5 ]] && echo "Greater than or equal to"
-``
+```
 output : Greater than or equal to
 
 
@@ -156,8 +156,8 @@ output : Greater than or equal to
 The less than or equal to operator is used to check if one value is less than or equal to another.
 
 Example:
-``bash
+```bash
  [[ 3 -le 5 ]] && echo "Less than or equal to"
- ``
+```
  output : Less than or equal to
  
