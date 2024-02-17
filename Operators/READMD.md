@@ -9,9 +9,9 @@ This guide provides a quick reference for common operators used in Linux command
 The addition operator is used to add numbers together.
 
 Example:
-``bash
+```bash
 echo $((5 + 3))
-``
+```
 output : 8
 
 
